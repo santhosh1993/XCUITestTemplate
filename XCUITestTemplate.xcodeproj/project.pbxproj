@@ -19,6 +19,9 @@
 		B53F59A22297C3E9004E2C9D /* XCUITestTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F59A12297C3E9004E2C9D /* XCUITestTemplateTests.swift */; };
 		B53F59AD2297C3E9004E2C9D /* XCUITestTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F59AC2297C3E9004E2C9D /* XCUITestTemplateUITests.swift */; };
 		B5E876B62297C8DE004FB652 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876B52297C8DE004FB652 /* CustomTextField.swift */; };
+		B5E876C12297CADF004FB652 /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C02297CADF004FB652 /* BasePage.swift */; };
+		B5E876C32297CB04004FB652 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C22297CB04004FB652 /* Config.swift */; };
+		B5E876C52297CB24004FB652 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C42297CB24004FB652 /* LoginPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		B53F59AC2297C3E9004E2C9D /* XCUITestTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestTemplateUITests.swift; sourceTree = "<group>"; };
 		B53F59AE2297C3E9004E2C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5E876B52297C8DE004FB652 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B5E876C02297CADF004FB652 /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
+		B5E876C22297CB04004FB652 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B5E876C42297CB24004FB652 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		BA32BC28FF24BF6CAA75463A /* Pods-XCUITestTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUITestTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-XCUITestTemplateTests/Pods-XCUITestTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C03F7A8004EEA6B756B2DA5C /* Pods_XCUITestTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUITestTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C439EFF87B79B1014F76B0F3 /* Pods-XCUITestTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUITestTemplate.debug.xcconfig"; path = "Target Support Files/Pods-XCUITestTemplate/Pods-XCUITestTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +178,7 @@
 		B5E876B82297C9ED004FB652 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B5E876C22297CB04004FB652 /* Config.swift */,
 				B5E876BB2297CA35004FB652 /* Models */,
 				B5E876BC2297CA42004FB652 /* Test Data */,
 				B5E876BD2297CA50004FB652 /* Tests */,
@@ -219,6 +226,8 @@
 		B5E876BE2297CA5C004FB652 /* Page Objects */ = {
 			isa = PBXGroup;
 			children = (
+				B5E876C02297CADF004FB652 /* BasePage.swift */,
+				B5E876C42297CB24004FB652 /* LoginPage.swift */,
 			);
 			path = "Page Objects";
 			sourceTree = "<group>";
@@ -488,7 +497,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E876C52297CB24004FB652 /* LoginPage.swift in Sources */,
 				B53F59AD2297C3E9004E2C9D /* XCUITestTemplateUITests.swift in Sources */,
+				B5E876C12297CADF004FB652 /* BasePage.swift in Sources */,
+				B5E876C32297CB04004FB652 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
