@@ -1,0 +1,16 @@
+{
+"data": [
+{
+"userName": "epam@epam.com",
+"passWord": "Epam@23"
+},
+{
+"userName": "epam@gmail.com",
+"passWord": "1234@Ep"
+},
+{
+"userName": "epam@epm",
+"passWord": "12"
+}
+]
+}
