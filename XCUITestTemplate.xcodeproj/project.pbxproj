@@ -28,6 +28,9 @@
 		B5E876CE2297CC59004FB652 /* CustomData.json in Resources */ = {isa = PBXBuildFile; fileRef = B5E876CC2297CC59004FB652 /* CustomData.json */; };
 		B5E876CF2297CC59004FB652 /* UserInputs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5E876CD2297CC59004FB652 /* UserInputs.plist */; };
 		B5E876D32297CCA1004FB652 /* LoginUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876D22297CCA1004FB652 /* LoginUITest.swift */; };
+		B5E876D62297CDAE004FB652 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E876D52297CDAE004FB652 /* CucumberishLoader.m */; };
+		B5E876D82297CDDF004FB652 /* LoginStepDefenation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876D72297CDDF004FB652 /* LoginStepDefenation.swift */; };
+		B5E876DA2297CE50004FB652 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = B5E876D92297CE4F004FB652 /* Features */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,10 @@
 		B5E876CC2297CC59004FB652 /* CustomData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomData.json; sourceTree = "<group>"; };
 		B5E876CD2297CC59004FB652 /* UserInputs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserInputs.plist; sourceTree = "<group>"; };
 		B5E876D22297CCA1004FB652 /* LoginUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITest.swift; sourceTree = "<group>"; };
+		B5E876D42297CDAE004FB652 /* XCUITestTemplateUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCUITestTemplateUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5E876D52297CDAE004FB652 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
+		B5E876D72297CDDF004FB652 /* LoginStepDefenation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStepDefenation.swift; sourceTree = "<group>"; };
+		B5E876D92297CE4F004FB652 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		BA32BC28FF24BF6CAA75463A /* Pods-XCUITestTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUITestTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-XCUITestTemplateTests/Pods-XCUITestTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C03F7A8004EEA6B756B2DA5C /* Pods_XCUITestTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUITestTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C439EFF87B79B1014F76B0F3 /* Pods-XCUITestTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUITestTemplate.debug.xcconfig"; path = "Target Support Files/Pods-XCUITestTemplate/Pods-XCUITestTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +177,7 @@
 		B53F59AB2297C3E9004E2C9D /* XCUITestTemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B5E876D92297CE4F004FB652 /* Features */,
 				B5E876BA2297CA08004FB652 /* Reporting */,
 				B5E876B92297C9FA004FB652 /* Exceptions */,
 				B5E876B82297C9ED004FB652 /* Source */,
@@ -261,6 +269,9 @@
 		B5E876D02297CC6B004FB652 /* BDD */ = {
 			isa = PBXGroup;
 			children = (
+				B5E876D52297CDAE004FB652 /* CucumberishLoader.m */,
+				B5E876D42297CDAE004FB652 /* XCUITestTemplateUITests-Bridging-Header.h */,
+				B5E876D72297CDDF004FB652 /* LoginStepDefenation.swift */,
 			);
 			path = BDD;
 			sourceTree = "<group>";
@@ -365,6 +376,7 @@
 					};
 					B53F59A72297C3E9004E2C9D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = B53F59852297C3E6004E2C9D;
 					};
 				};
@@ -411,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E876DA2297CE50004FB652 /* Features in Resources */,
 				B5E876CF2297CC59004FB652 /* UserInputs.plist in Resources */,
 				B5E876CE2297CC59004FB652 /* CustomData.json in Resources */,
 			);
@@ -537,6 +550,8 @@
 				B53F59AD2297C3E9004E2C9D /* XCUITestTemplateUITests.swift in Sources */,
 				B5E876C12297CADF004FB652 /* BasePage.swift in Sources */,
 				B5E876D32297CCA1004FB652 /* LoginUITest.swift in Sources */,
+				B5E876D82297CDDF004FB652 /* LoginStepDefenation.swift in Sources */,
+				B5E876D62297CDAE004FB652 /* CucumberishLoader.m in Sources */,
 				B5E876C92297CBA8004FB652 /* TestInputHandler.swift in Sources */,
 				B5E876C32297CB04004FB652 /* Config.swift in Sources */,
 				B5E876CB2297CBCC004FB652 /* DataParser.swift in Sources */,
@@ -778,7 +793,9 @@
 			baseConfigurationReference = 6597641923D0181011A5597F /* Pods-XCUITestTemplateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = XCUITestTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -787,6 +804,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Epam.XCUITestTemplateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XCUITestTemplateUITests/Source/Tests/BDD/XCUITestTemplateUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = XCUITestTemplate;
@@ -798,7 +817,9 @@
 			baseConfigurationReference = 059D0C8CF45EC58FEB49632E /* Pods-XCUITestTemplateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = XCUITestTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -807,6 +828,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Epam.XCUITestTemplateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XCUITestTemplateUITests/Source/Tests/BDD/XCUITestTemplateUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = XCUITestTemplate;
