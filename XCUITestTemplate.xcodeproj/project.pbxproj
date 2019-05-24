@@ -22,6 +22,7 @@
 		B5E876C12297CADF004FB652 /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C02297CADF004FB652 /* BasePage.swift */; };
 		B5E876C32297CB04004FB652 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C22297CB04004FB652 /* Config.swift */; };
 		B5E876C52297CB24004FB652 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C42297CB24004FB652 /* LoginPage.swift */; };
+		B5E876C72297CB60004FB652 /* LoginWorkFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E876C62297CB60004FB652 /* LoginWorkFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		B5E876C02297CADF004FB652 /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
 		B5E876C22297CB04004FB652 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		B5E876C42297CB24004FB652 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		B5E876C62297CB60004FB652 /* LoginWorkFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorkFlow.swift; sourceTree = "<group>"; };
 		BA32BC28FF24BF6CAA75463A /* Pods-XCUITestTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUITestTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-XCUITestTemplateTests/Pods-XCUITestTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C03F7A8004EEA6B756B2DA5C /* Pods_XCUITestTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCUITestTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C439EFF87B79B1014F76B0F3 /* Pods-XCUITestTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCUITestTemplate.debug.xcconfig"; path = "Target Support Files/Pods-XCUITestTemplate/Pods-XCUITestTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 		B5E876BF2297CA66004FB652 /* Work Flow */ = {
 			isa = PBXGroup;
 			children = (
+				B5E876C62297CB60004FB652 /* LoginWorkFlow.swift */,
 			);
 			path = "Work Flow";
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				B53F59AD2297C3E9004E2C9D /* XCUITestTemplateUITests.swift in Sources */,
 				B5E876C12297CADF004FB652 /* BasePage.swift in Sources */,
 				B5E876C32297CB04004FB652 /* Config.swift in Sources */,
+				B5E876C72297CB60004FB652 /* LoginWorkFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
