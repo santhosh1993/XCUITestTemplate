@@ -152,10 +152,82 @@
 		B53F59AB2297C3E9004E2C9D /* XCUITestTemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B5E876BA2297CA08004FB652 /* Reporting */,
+				B5E876B92297C9FA004FB652 /* Exceptions */,
+				B5E876B82297C9ED004FB652 /* Source */,
+				B5E876B72297C9C4004FB652 /* Utilities */,
 				B53F59AC2297C3E9004E2C9D /* XCUITestTemplateUITests.swift */,
 				B53F59AE2297C3E9004E2C9D /* Info.plist */,
 			);
 			path = XCUITestTemplateUITests;
+			sourceTree = "<group>";
+		};
+		B5E876B72297C9C4004FB652 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B5E876B82297C9ED004FB652 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B5E876BB2297CA35004FB652 /* Models */,
+				B5E876BC2297CA42004FB652 /* Test Data */,
+				B5E876BD2297CA50004FB652 /* Tests */,
+				B5E876BE2297CA5C004FB652 /* Page Objects */,
+				B5E876BF2297CA66004FB652 /* Work Flow */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B5E876B92297C9FA004FB652 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		B5E876BA2297CA08004FB652 /* Reporting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reporting;
+			sourceTree = "<group>";
+		};
+		B5E876BB2297CA35004FB652 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5E876BC2297CA42004FB652 /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		B5E876BD2297CA50004FB652 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B5E876BE2297CA5C004FB652 /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Page Objects";
+			sourceTree = "<group>";
+		};
+		B5E876BF2297CA66004FB652 /* Work Flow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Work Flow";
 			sourceTree = "<group>";
 		};
 		F8F40F7A57A3BE4268AC9BA1 /* Pods */ = {
