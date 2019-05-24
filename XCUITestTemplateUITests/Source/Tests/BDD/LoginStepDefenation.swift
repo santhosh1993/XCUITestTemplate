@@ -25,7 +25,9 @@ class CucumberishInitializer: NSObject {
         }
         
         When("User enters valid credentials") { (args, userInfo) -> Void in
-            workFlow.userLogin(email: "Epam@gmail.com", password: "Epam123")
+            if let studentModel: StudentJsonModel = DataParser.getDataFromJsonAndParse("CustomData", ofType: "json") {
+                workFlow.userLogin(email: studentModel.inputs.first?.userName ?? "", password: studentModel.inputs.first?.passWord ?? "")
+            }
         }
         
         Then("Login is successful") { (args, userInfo) -> Void in

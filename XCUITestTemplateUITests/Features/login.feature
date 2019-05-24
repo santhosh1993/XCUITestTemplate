@@ -1,7 +1,7 @@
-Feature: Invalid Search
+Feature: Valid Login
 
 @NoResults
-Scenario: Unable to search Weather
+Scenario: Valid login with all possible credentials
 
     Given I am on Login Screen
     When User enters valid credentials
